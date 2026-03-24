@@ -17,7 +17,7 @@ public class NewAccount {
 	PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//*[text()='New Account']")
+	@FindBy(xpath="//a[normalize-space()='New Account']")
 	WebElement NewAccount;
 	
 	@FindBy(xpath="//input[@name='cusid']")
